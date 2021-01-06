@@ -73,11 +73,15 @@ section {
   overflow: hidden;
   min-height: 310px;
   margin-bottom: 40px;
-  
+  transition: transform .09s; /* Animation */
 }
+.project:hover{
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 
 .project div {
 padding-left: 12px;
+
 }
 
 .projects-div div a{
@@ -98,14 +102,21 @@ font-size: 12px;
 
 .insure {
   background-image: url(./assets/insure.png);
+  /* opacity: 0.9; */
 }
 
 .huddle {
   background-image: url(./assets/huddle.png);
+  /* opacity: 0.9; */
 }
 
 .netflix {
   background-image: url(./assets/netflix.png);
+  /* opacity: 0.9; */
+}
+
+.insure:hover, .huddle:hover, .netflix:hover{
+  opacity: 1;
 }
 
 
