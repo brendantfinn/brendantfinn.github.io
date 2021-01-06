@@ -72,6 +72,7 @@ section {
 .technicalSkills p{
   padding: 0;
   margin: 0;
+  color: #6c6c6c;
 }
 .projects-div{
   display: flex;
