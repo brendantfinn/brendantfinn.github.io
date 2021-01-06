@@ -10,13 +10,21 @@ h1 {
   font-family: "Playfair Display", serif;
   font-size: 50px;
   margin-bottom: -5px;
+  border: 0;
 }
 
 .project-title{
   color: rgb(191, 191, 191);
   font-weight: 100;
+  margin: 0;
 }
-
+header{
+  display: flex;
+  max-width: 900px;
+  margin: 10px auto;
+  justify-content: space-between;
+  align-items: center;
+}
 header h2 {
   font-size: 1.2em;
   font-weight: normal;
@@ -39,7 +47,7 @@ p {
 }
 
 header {
-  text-align: center;
+  /* text-align: center; */
 }
 
 hr {
@@ -50,16 +58,26 @@ hr {
 }
 
 section {
-  margin: 30px;
+  /* margin: 30px; */
   
 }
 
+.technicalSkills{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
 
+.technicalSkills p{
+  padding: 0;
+  margin: 0;
+}
 .projects-div{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  
+  justify-content: space-between;
+  margin: 20px 0;
 
 }
 
@@ -68,7 +86,7 @@ section {
   border-radius: 10px;
   /* width: 300px; */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.126), 0 6px 6px rgba(0, 0, 0, 0.14);
-  margin-right: 20px;
+  /* margin-right: 20px; */
   /* padding: 10px; */
   overflow: hidden;
   min-height: 310px;
@@ -128,10 +146,18 @@ canvas {
   height: 100vh;
   margin-left: 0em;
 }
-
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgb(216, 216, 216);
+  margin: 1em 0;
+  padding: 0;
+  width: 100%;
+}
 main {
   max-width: 900px;
-  margin: 60px auto;
+  margin: 10px auto;
   /* align-items: center; */
   /* background-color: #222; */
 }
